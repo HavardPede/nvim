@@ -1,4 +1,4 @@
-# kickstart.nvim
+# NeoVim setup
 
 ## Introduction
 
