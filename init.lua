@@ -385,11 +385,10 @@ require('lazy').setup({
   },
 
   {
-    -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`.
-    'sainnhe/everforest',
-    priority = 1000, -- Make sure to load this before all the other start plugins.
+    'catppuccin/nvim',
+    priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'everforest'
+      vim.cmd.colorscheme 'catppuccin-frappe'
     end,
   },
 
