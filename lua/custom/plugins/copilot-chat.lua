@@ -38,6 +38,7 @@ return {
       },
       -- Code related commands
       { '<leader>ze', '<cmd>CopilotChatExplain<cr>', desc = 'CopilotChat - Explain code' },
+      { '<leader>zo', '<cmdCopilotChatOptimize<cr>', desc = 'CopilotChat - Optimize code' },
       { '<leader>zt', '<cmd>CopilotChatTests<cr>', desc = 'CopilotChat - Generate tests' },
       { '<leader>zr', '<cmd>CopilotChatReview<cr>', desc = 'CopilotChat - Review code' },
       { '<leader>zf', '<cmd>CopilotChatRefactor<cr>', desc = 'CopilotChat - Refactor code' },
